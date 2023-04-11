@@ -79,7 +79,7 @@ public final class MaxRunFinder {
         // Declare variables to keep track of the current
         // run and the maximum run.
         int currentRun = 1;
-        nt maxRun = 0;
+        int maxRun = 0;
 
         // If the line only contains one character, the maximum run is 1.
         if (line.length() == 1) {
